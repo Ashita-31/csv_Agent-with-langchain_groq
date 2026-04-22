@@ -1,8 +1,8 @@
 import os
 import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+import pandas
+import matplotlib
+import seaborn
 
 from langchain_groq import ChatGroq
 from langchain_experimental.agents import create_pandas_dataframe_agent
